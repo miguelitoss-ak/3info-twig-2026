@@ -2,7 +2,7 @@
 
 <hr>
 
-<p>Ola {{ nome }}. Twig Funcionando</p>
+<p>Ola {{ nome|upper }}. Twig Funcionando</p>
 
 <p>
     {%if legal%}
@@ -19,3 +19,5 @@
         {% endfor %}
     </ul>
 </p>
+
+<p>{{ poema }}</p>
